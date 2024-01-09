@@ -1,6 +1,8 @@
 locals {
   enabled_apis = [
-    "iam.googleapis.com"
+    "iam.googleapis.com",
+    "iamcredentials.googleapis.com",
+    "sts.googleapis.com",
   ]
 }
 
